@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversion_options">
+        <item>Real → BTC</item>
+        <item>BTC → Real</item>
+        <item>Dólar → BTC</item>
+        <item>BTC → Dólar</item>
+        <item>Euro → BTC</item>
+        <item>BTC → Euro</item>
+    </string-array>
+
+    <string-array name="currency_types">
+        <item>Real (BRL)</item>
+        <item>Dólar (USD)</item>
+        <item>Euro (EUR)</item>
+    </string-array>
+
+    <!-- Exemplo de outro array que poderia ser útil -->
+    <string-array name="time_periods">
+        <item>Últimos 7 dias</item>
+        <item>Últimos 30 dias</item>
+        <item>Últimos 90 dias</item>
+    </string-array>
+</resources>
