@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,12 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LucrosBTC"
-        android:usesCleartextTraffic="true"
-        tools:targetApi="31">
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
+        android:usesCleartextTraffic="true">
 
         <activity
             android:name=".SplashActivity"
@@ -29,21 +22,10 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".OverviewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ConversionActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AboutActivity"
-            android:exported="false" />
+        <activity android:name=".HomeActivity" android:exported="false" />
+        <activity android:name=".MainActivity" android:exported="false" />
+        <activity android:name=".OverviewActivity" android:exported="false" />
+        <activity android:name=".ConversionActivity" android:exported="false" />
+        <activity android:name=".AboutActivity" android:exported="false" />
     </application>
 </manifest>

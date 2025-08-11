@@ -9,14 +9,7 @@ import java.util.concurrent.TimeUnit
 object RetrofitClient {
     private const val COINGECKO_BASE_URL = "https://api.coingecko.com/api/v3/"
     private const val LOCALBITCOINS_BASE_URL = "https://localbitcoins.com/"
-
-    val coinGeckoService: CoinGeckoApiService by lazy {
-        createRetrofit(COINGECKO_BASE_URL).create(CoinGeckoApiService::class.java)
-    }
-
-    val localBitcoinsService: CoinGeckoApiService by lazy {
-        createRetrofit(LOCALBITCOINS_BASE_URL).create(CoinGeckoApiService::class.java)
-    }
+    private const val KRAKEN_BASE_URL = "https://api.kraken.com/0/"
 
     private fun createRetrofit(baseUrl: String): Retrofit {
         val client = OkHttpClient.Builder()
@@ -32,5 +25,17 @@ object RetrofitClient {
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+    }
+
+    val coinGeckoService: CoinGeckoApiService by lazy {
+        createRetrofit(COINGECKO_BASE_URL).create(CoinGeckoApiService::class.java)
+    }
+
+    val localBitcoinsService: CoinGeckoApiService by lazy {
+        createRetrofit(LOCALBITCOINS_BASE_URL).create(CoinGeckoApiService::class.java)
+    }
+
+    val krakenService: CoinGeckoApiService by lazy {
+        createRetrofit(KRAKEN_BASE_URL).create(CoinGeckoApiService::class.java)
     }
 }

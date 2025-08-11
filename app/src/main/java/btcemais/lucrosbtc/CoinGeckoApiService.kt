@@ -14,4 +14,7 @@ interface CoinGeckoApiService {
 
     @GET("bitcoinaverage/ticker-all-currencies/")
     suspend fun getLocalBitcoinsPrices(): Response<LocalBitcoinsResponse>
+
+    @GET("api/v3/ticker?pair=XBTUSD,XBTEUR,XBTBRL")
+    suspend fun getKrakenPrices(): Response<KrakenResponse>
 }
