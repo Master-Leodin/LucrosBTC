@@ -135,7 +135,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Dólar (USD)"
+                    android:text="Dolar (USD)"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
 
@@ -149,7 +149,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Total gasto:"
+                        android:text="Total spent:"
                         android:textSize="16sp"/>
 
                     <TextView
@@ -172,7 +172,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Valor atual:"
+                        android:text="Current value:"
                         android:textSize="16sp"/>
 
                     <TextView
@@ -195,7 +195,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Sats comprados:"
+                        android:text="Sats purchased:"
                         android:textSize="16sp"/>
 
                     <TextView
@@ -242,7 +242,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Total gasto:"
+                        android:text="Total gastado:"
                         android:textSize="16sp"/>
 
                     <TextView
@@ -265,7 +265,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Valor atual:"
+                        android:text="Valor actual:"
                         android:textSize="16sp"/>
 
                     <TextView
@@ -288,7 +288,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Sats comprados:"
+                        android:text="Sats comprado:"
                         android:textSize="16sp"/>
 
                     <TextView

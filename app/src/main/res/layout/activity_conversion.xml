@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Conversão para BTC"
+        app:title="@string/convers_o_de_valores"
         app:navigationIcon="@drawable/ic_arrow_back"
         app:titleTextColor="@android:color/white"/>
 
