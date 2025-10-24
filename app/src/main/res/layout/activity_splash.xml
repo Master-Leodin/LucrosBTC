@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/splash_image"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
@@ -22,7 +22,7 @@
         android:layout_marginTop="0dp"
         android:text="@string/lucros_btc"
         android:textColor="@android:color/black"
-        android:textSize="50sp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
