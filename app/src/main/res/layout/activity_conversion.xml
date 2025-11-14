@@ -47,17 +47,17 @@
         android:id="@+id/inputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:background="#AA0011FF"
-        android:layout_marginBottom="16dp">
+        android:textColorHint="@color/text_hint">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/amountEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/valor_em_reais"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
-            android:inputType="numberDecimal"/>
+            android:inputType="numberDecimal"
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

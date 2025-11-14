@@ -65,4 +65,55 @@
     <string name = "donation_text"> Hoy, estoy aquí, viviendo en la calle y reconstruyendo mi vida después de perder todo en un robo, incluido mi único medio de trabajo.\nIncluso con una computadora vieja, sigo adelante, creando esta aplicación para todos.\nEs gratis, sin anuncios y código abierto y mi misión es mantenerlo así, siempre libre de costos y anuncios.\nSu contribución me brinda el apoyo necesario para continuar y con su apoyo, puedo agregar más criptomonedas según sea necesario.\nCada donación es más que un gesto financiero, es un apoyo esencial para mí seguir ofreciendo algo valioso.\n\nWallet of Satoshi: mightynepal82@walletofsatoshi.com\n\nBTC Onchain: bc1qjahmm3qtzpn9kc86j8uedejjuvtlp66z8w3wek\n\nWise: https://wise.com/pay/me/leonardot1427\n\nPayPal y PIX: leonardo132@gmail.com\n\nGracias por ayudar a mantener este proyecto gratuito y accesible para todos.\n¡Tu contribución hace toda la diferencia! </string>
     <string name="hist_rico_por_moeda">Historial por moneda</string>
     <string name="sobre_e_doa_es2">Acerca de y Donaciones</string>
+
+    <!-- Adicione as mesmas strings em espanhol -->
+    <string name="about_app_name">Ganancias de BTC</string>
+    <string name="about_app_version">Versión: %s</string>
+    <string name="about_app_description">Aplicación para rastrear sus ganancias de Bitcoin y convertir valores</string>
+    <string name="about_support_development">Apoye el desarrollo</string>
+    <string name="about_donation_message">Si te gustó la aplicación, considera hacer una donación para apoyar el desarrollo</string>
+    <string name="about_paypal_pix">PayPal y PIX</string>
+    <string name="about_paypal_email">Email: leonardo132@gmail.com</string>
+    <string name="about_copy_email">Copiar Email</string>
+    <string name="about_wise">Wise</string>
+    <string name="about_wise_id">ID: leonardot1427</string>
+    <string name="about_open_wise">Abrir Wise</string>
+    <string name="about_copy_wise_id">Copiar ID</string>
+    <string name="about_lightning">Lightning Network</string>
+    <string name="about_copy_lightning">Copiar Dirección Lightning</string>
+    <string name="about_bitcoin">Bitcoin On-Chain</string>
+    <string name="about_copy_bitcoin">Copiar Dirección Bitcoin</string>
+    <string name="about_share_app">Compartir App</string>
+    <string name="about_developed_with_love">Desarrollado con ❤️ por Master-Leodin</string>
+
+    <string name="success_email_copied">Email copiado al portapapeles</string>
+    <string name="success_wise_id_copied">ID de Wise copiado al portapapeles</string>
+    <string name="success_lightning_copied">Dirección Lightning copiada al portapapeles</string>
+    <string name="success_bitcoin_copied">Dirección Bitcoin copiada al portapapeles</string>
+
+    <string name="error_open_link">Error al abrir el enlace</string>
+    <string name="error_copy">Error al copiar</string>
+    <string name="error_share">Error al compartir</string>
+
+    <string name="share_app_text">Descarga la aplicación Ganancias de BTC para rastrear tus ganancias de Bitcoin y convertir valores. Disponible en: %s</string>
+
+    <string name="new_version_available">Nueva Versión Disponible</string>
+    <string name="release_notes_placeholder">Cargando notas de la versión…</string>
+    <string name="later_button">Después</string>
+    <string name="update_button">Actualizar</string>
+    <string name="downloading_update">Descargando actualización…</string>
+    <string name="update_downloaded">Actualización descargada. Instalando…</string>
+    <string name="update_failed">Error en la actualización. Inténtelo de nuevo.</string>
+
+    <string name="try_again">Intentar de Nuevo</string>
+    <string name="install">Instalar</string>
+    <string name="downloading">Descargando…</string>
+    <string name="download_error">Error de descarga: %s</string>
+    <string name="corrupted_update_file">Archivo de actualización corrupto</string>
+    <string name="package_conflict">Conflicto de paquete. Por favor, desinstale la versión anterior primero.</string>
+    <string name="no_app_can_open_file">Ninguna aplicación puede abrir este tipo de archivo</string>
+    <string name="installation_error">Error de instalación: %s</string>
+
+
+
 </resources>

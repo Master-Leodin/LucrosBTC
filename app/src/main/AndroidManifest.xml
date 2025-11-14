@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".SavingsApplication"
@@ -13,7 +17,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".SplashActivity"
+            android:name=".HomeActivity"
             android:exported="true"
             android:theme="@style/Theme.LucrosBTC.NoActionBar">
             <intent-filter>
@@ -22,10 +26,20 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HomeActivity" android:exported="false" />
         <activity android:name=".MainActivity" android:exported="false" />
         <activity android:name=".OverviewActivity" android:exported="false" />
         <activity android:name=".ConversionActivity" android:exported="false" />
         <activity android:name=".AboutActivity" android:exported="false" />
+
+        <!-- Provider para instalação de APK -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 </manifest>

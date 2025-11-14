@@ -3,22 +3,21 @@
     <string-array name="conversion_options">
         <item>Real → BTC</item>
         <item>BTC → Real</item>
-        <item>Dólar → BTC</item>
-        <item>BTC → Dólar</item>
+        <item>Dollar → BTC</item>
+        <item>BTC → Dollar</item>
         <item>Euro → BTC</item>
         <item>BTC → Euro</item>
     </string-array>
 
     <string-array name="currency_types">
         <item>Real (BRL)</item>
-        <item>Dólar (USD)</item>
+        <item>Dollar (USD)</item>
         <item>Euro (EUR)</item>
     </string-array>
 
-    <!-- Exemplo de outro array que poderia ser útil -->
     <string-array name="time_periods">
-        <item>Últimos 7 dias</item>
-        <item>Últimos 30 dias</item>
-        <item>Últimos 90 dias</item>
+        <item>Last 7 days</item>
+        <item>Last 30 days</item>
+        <item>Last 90 days</item>
     </string-array>
 </resources>

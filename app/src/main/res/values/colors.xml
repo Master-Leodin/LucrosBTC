@@ -11,4 +11,9 @@
     <color name="green_dark">#388E3C</color>
     <color name="background">#F5F5F5</color>
     <color name="colorPrimary">#9C27B0</color>
+
+    <color name="bkg_page">#C3EBE4E4</color>
+    <color name="text_button">#FFEB3B</color>
+    <color name="bkg_button">#3F51B5</color>
+    <color name="text_hint">#EDA8A8</color>
 </resources>
